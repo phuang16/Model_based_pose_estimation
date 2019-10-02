@@ -3,6 +3,7 @@
 **Problem statement:**
   - Given: (1) image of an object (2) location of features on the object (model geometry), and (3) the corresponding location of the features in the image 
   - Find: the pose (position & orientation) of the object with respect to the camera
+  - In addition, uncertainy of the estimated pose was obtained by the covariance matrix  
 
 **Method:**
 Least square method
